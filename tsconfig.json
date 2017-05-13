@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "src/functions",
+    "src/lib"
+  ],
+  "exclude": [
+    "**/*.test.*"
+  ]
+}
